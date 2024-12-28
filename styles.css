@@ -103,3 +103,10 @@ button:disabled {
     color: #666;
     margin-bottom: 20px;
 }
+
+.footer {
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
