@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英文單字測驗</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>英文單字測驗</h1>
+        <div class="quiz-box">
+            <div id="progress">第 <span id="current-question">1</span> 題，共 <span id="total-questions">5</span> 題</div>
+            <div id="question" class="question"></div>
+            <input type="text" id="answer" placeholder="請輸入英文單字">
+            <div class="buttons">
+                <button id="check-btn">確認答案</button>
+                <button id="next-btn" disabled>下一題</button>
+            </div>
+            <div id="feedback" class="feedback"></div>
+            <div id="score" class="score">目前得分：0</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
